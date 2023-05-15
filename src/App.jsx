@@ -68,7 +68,7 @@ const App = () => {
     <div className='flex flex-col items-center'>
       <h1 className='mt-10 mb-5 text-3xl font-monster font-extrabold text-teal-600'>{title}</h1>
       <SearchBox onChangeHandler={filteredMonsters} isChecked={isChecked} setIsChecked={setIsChecked} placeholder='search monsters' className=' bg-white w-40 mt-4 focus:outline-none focus:ring-2 focus:ring-blue-500 border border-gray-300 rounded-md p-3 leading-tight shadow-sm' />
-      <SearchBox onChangeHandler={titleChange} isChecked={isChecked} setIsChecked={setIsChecked} placeholder='set title' className=' bg-white w-40 mb-10 mt-4 focus:outline-none focus:ring-2 focus:ring-blue-500 border border-gray-300 rounded-md p-3 leading-tight shadow-sm' />
+      <SearchBox onChangeHandler={titleChange} placeholder='set title' className=' bg-white w-40 mb-10 mt-4 focus:outline-none focus:ring-2 focus:ring-blue-500 border border-gray-300 rounded-md p-3 leading-tight shadow-sm' />
       <CardList monsters={filterMonsters} />
       <h1 className='mt-10 mb-5 text-3xl font-monster font-extrabold text-teal-600'>Add Your Monster</h1>
       <AddMonsters onAdd={addMonsters} />

@@ -18,7 +18,7 @@ const SearchBox = ({ className, placeholder, onChangeHandler, isChecked, setIsCh
                 placeholder={placeholder}
                 onChange={onChangeHandler}
             />
-        </div>
+        </div>  
     );
 }
 
